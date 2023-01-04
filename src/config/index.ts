@@ -8,5 +8,7 @@ if(process.env.NODE_ENV !== 'prod'){
 }
 
 module.exports={
-    PORT:process.env.PORT
+    PORT:process.env.PORT,
+    MONGO_URL:process.env.MONGO_URL,
+    MONGO_DB : process.env.MONGO_DB
 }
